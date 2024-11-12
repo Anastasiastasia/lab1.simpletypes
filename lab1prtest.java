@@ -1,10 +1,9 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-// импортируем org.junit.jupiter.api.Test (JUnit 5)
 
-public class lab1prtest {                                    // определяем класс Lab1PoiskTest для тестов
+public class lab1prtest {                                    
     
-    @Test                                                       // создаем аннотацию Test из фреймворка JUnit, которая помечает метод как тестовый случай, 
+    @Test                                                       
                                                                
     public void testcalculatePoisk () {                                       
         double inputX = 2.54;
