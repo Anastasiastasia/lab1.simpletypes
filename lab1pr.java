@@ -24,8 +24,8 @@ public static void main(String args[]) {
     double actualresult=Math.sin(x);
     System.out.printf("результат стандартной функции %7f%n ",actualresult);
     formatter.format("%+.7f%n",actualresult);
-    formatter.format("Octal value: %o%n", (int) actualresult);// восьмиричное
-    formatter.format("Hexadecimal value: %x%n", (int) actualresult); //шестнадцатиричное
+    formatter.format("Octal value: %o%n", (int) actualresult);
+    formatter.format("Hexadecimal value: %x%n", (int) actualresult); 
     formatter.format("приближенное значение по формуле Тейлора %7f%n",calculatePoisk(x,k));
     System.out.println("форматированное значение к+1 знак после запятой ");
     formatter.format("%."+(k+1)+"f",actualresult);
